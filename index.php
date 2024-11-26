@@ -12,11 +12,20 @@
 
     // var_dump($result->fetch_all());
 
-    echo "<form>";
-        echo "<input name='username' />";
-        echo "<input type='password' name='password' />";
+    echo "<form method='POST'>";
+        echo "<label>Lietotaja vards: <input name='username' /></label>";
+        echo "<label>Parole: <input type='password' name='password'/></label>";
         echo "<input type='button' value='registrejie'>";
     echo "</form>";
+
+
+
+
+    // $masivs = [6, 8, 10];
+
+    // $assoc_masivs = ["vecums"=> 6, "videja_atzime"=> 8, "ids"=> 10];
+
+
 
 
 ?>
